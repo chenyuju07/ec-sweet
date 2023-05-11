@@ -1,0 +1,425 @@
+.wrap{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.nav{
+	width: 940px;
+	height: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 42px;
+	margin-left: 42px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img{
+	height: 40px;
+}
+
+.nav-menu{
+	display: flex;
+	align-items: center;
+}
+
+.nav-menu ul{
+	display: flex;
+	margin-right: 59px;
+}
+
+.nav-menu li a{
+	font-family: PingFang TC;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 73px;
+	letter-spacing: 0px;
+	color: #3F5D45;
+	text-decoration: none;
+	margin-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.nav-menu li a:hover{
+	border-bottom: 2px solid #3F5D45;
+}
+
+.cart a{
+	padding-top: 9px;
+	padding-bottom: 7px;
+}
+
+.hero-space{
+	width: 940px;
+	height: 496px;
+	margin-right: 42px;
+	margin-left: 42px;
+	margin-bottom: 60px;	
+}
+
+.content{
+	width: 940px;
+	margin-left: 42px;
+	margin-right: 42px;
+	display: flex;
+}
+
+.side-bar{
+	width: 300px;
+	margin-right: 20px;
+}
+
+.side-bar h1{
+	text-align: center;
+	font-family: PingFang TC;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 40px;
+	color: #EAF0ED;
+}
+
+.box-category{
+	width: 300px;
+	height: 65px;
+	background: #3F5D45;
+	border: 1px solid #3F5D45;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.side-bar a{
+	text-align: center;
+	font-family: PingFang TC;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 40px;
+	text-decoration: none;
+	color: #3F5D45;
+	width: 300px;
+	height: 65px;
+	background: #fff;
+	border: 1px solid #EAF0ED;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.side-bar a:hover{
+	background: #EAF0ED;
+}
+
+.product{
+	width: 620px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.item{
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+
+.item-image{
+	width: 300px;
+	height: 315px;
+	position: relative;
+}
+
+.tag{
+	width: 36px;
+	height: 107px;
+	background: #3F5D45;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0px;
+	left: 20px;
+}
+
+.icon a{
+	position: absolute;
+	top: 19px;
+	left: 258px;
+}
+
+.item-image p{
+	font-family: PingFang TC;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 4px;
+	color: #EAF0ED;
+	writing-mode: vertical-lr;
+}
+
+.item-info{
+	width: 300px;
+	height: 56px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.item-name{
+	width: 173px;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #EAF0ED;
+}
+
+.item-price{
+	width: 127px;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #EAF0ED;
+}
+
+.item-info h2{
+	font-family: PingFang TC;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 20px;
+	color: #3F5D45;
+}
+
+.item-info p{
+	text-align: center;
+	font-family: PingFang TC;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+	color: #3F5D45;
+}
+
+.btn-cart a{
+	width: 300px;
+	height: 65px;
+	background: #EAF0ED;
+	border: 1px solid #EAF0ED;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: PingFang TC;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px;
+	color: #3F5D45;
+	text-decoration: none;
+}
+
+.btn-cart a:hover{
+	background: #3F5D45;
+	border: 1px solid #3F5D45;
+	color: #EAF0ED;
+}
+
+.page{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 10px;
+	margin-right: 42px;
+	margin-bottom: 60px;
+}
+
+.page-option a{
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	border: 1px solid #EAF0ED;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: PingFang TC;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 20px;
+	color: #3F5D45;
+	text-decoration: none;
+}
+
+.page-option a:hover{
+	background: #3F5D45;
+	border: 1px solid #3F5D45;
+	font-weight: 600;
+	color: #EAF0ED;
+}
+
+.page-control a{
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	border: 1px solid #EAF0ED;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subscribe{
+	width: 1024px;
+	height: 116px;
+	background: #3F5D45;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.subscribe-info{
+	width: 276px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.subscribe-info img{
+	max-width: 40px;
+	max-height: 40px;
+}
+
+.subscribe-info p{
+	font-family: Helvetica Neue;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 29px;
+	color: #EAF0ED;
+}
+
+.subscribe-mail{
+	width: 380px;
+	height: 56px;
+	background: #EAF0ED;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.subscribe-mail img{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.subscribe-mail input{
+	border: 0;
+	outline: 0;
+	background: #EAF0ED;
+	margin-right: 20px;
+
+}	
+
+.subscribe-mail	input:focus{
+	outline: none;
+}
+
+.subscribe-mail a{
+	width: 64px;
+	height: 56px;
+	background: #FFE180;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer{
+	width: 1024px;
+	height: 341px;
+	background: #EAF0ED;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.footer-logo img{
+	width: 171px;
+}
+
+.footer-banner img{
+	width: 59px;
+}
+
+.contact{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 122px;
+	padding-right: 122px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.contact-detail a{
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 24px;
+	color: #3F5D45;
+	text-decoration: none;
+}
+
+.contact-detail p{
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 24px;
+	color: #3F5D45;
+}
+
+.other-contact{
+	padding-bottom: 30px;
+	padding-left: 122px;
+	padding-right: 122px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.social-media{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.social-media img{
+	width: 32px;
+	height: 32px;
+	margin-right: 8px;
+}
+
+.other-contact p{
+	font-family: Times;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 19px;
+	color: #3F5D45;
+}
